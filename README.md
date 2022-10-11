@@ -17,5 +17,6 @@ Validations:
   Customer cannot register existing email address.
   
 After run project, you can request endpoints via Book Store.postman_collection in repository.
+You should import the Book Store.postman_collection file to Postman. 
 
 Authentication and Test not implemented.
