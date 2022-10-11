@@ -12,6 +12,5 @@ public interface BookRepository extends JpaRepository<Book, Long> {
         int newQuantity = currentQuantity - saleQuantity;
         book.setStockQuantity(newQuantity);
         Book save = this.save(book);
-        System.out.println("stopp");
     }
 }
